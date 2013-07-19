@@ -1,3 +1,28 @@
-target
-var
-dependency-reduced-pom.xml
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Better integration with Eclipse
+maven-eclipse.xml
+
+# Compiled files directory
+target/
+
+# Eclipse
+.settings/
+.metadata/
+.project
+.springBeans
+.classpath
+*.local.properties
+*.log
+*.log.*
+.externalToolBuilders/
+
+# OS generated files
+.DS_Store
+Icon?
+Thumbs.db
